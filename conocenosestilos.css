@@ -1,0 +1,102 @@
+ul{
+    font-family: "Roboto Mono", monospace;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #270041;
+  }
+
+  li{
+    float: left;
+  }
+
+  li a{
+    display: block;
+    color: rgb(247, 240, 240);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover{
+    background-color: #72017c96;
+  }
+
+
+  .header{
+    padding: 15px;
+    text-align: center;
+    background: #181818;
+  }
+
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #ffffff;
+    padding-left: 20px;
+  }
+
+  .card {
+    background-color: #8d8d8d;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ffffff;
+    margin-top: 20px;
+  }
+
+  @media screen and (max-width: 800px){
+    .leftcolumn, .rightcolumn {   
+       width: 100%;
+       padding: 0;
+     }
+   }
+   
+
+  h1{
+    font-family: "Arvo", serif;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+  }
+  
+  h2{
+    font-family: "Imbue", serif;
+    font-size: 27px;
+    color: rgb(255, 255, 255);
+  }
+  
+  h3{
+    font-family: "Abril Fatface", serif;
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+  }
+
+  h4{
+    font-family: "Graduate", serif;
+    font-size: 22px;
+    color: black;
+  }
+  
+  p{
+    font-family: "Zilla Slab", serif;
+    font-size: 20px;
+    color: black;
+  }
